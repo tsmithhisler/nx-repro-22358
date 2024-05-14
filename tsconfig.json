@@ -1,0 +1,9 @@
+{
+  "include": [],
+  "exclude": [],
+  "files": [],
+  "references": [
+    { "path": "./apps/app" },
+    { "path": "./libs/libA" }
+  ]
+}

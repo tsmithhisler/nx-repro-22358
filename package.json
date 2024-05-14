@@ -1,0 +1,12 @@
+{
+  "name": "nx-repro-22358",
+  "version": "2.19.3",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@nx/esbuild": "19.0.3",
+    "@nx/js": "19.0.3",
+    "nx": "19.0.3",
+    "esbuild": "0.19.12"
+  }
+}

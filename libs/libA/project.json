@@ -1,0 +1,20 @@
+{
+  "name": "libA",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/libA/src",
+  "projectType": "library",
+  "targets": { 
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/libA",
+        "tsConfig": "libs/libA/tsconfig.lib.json",
+        "packageJson": "libs/libA/package.json",
+        "main": "libs/libA/src/index.ts",
+        "updateBuildableProjectDepsInPackageJson": true
+      }
+    }
+  },
+  "tags": []
+}
