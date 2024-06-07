@@ -20,7 +20,7 @@ typescript     : 5.4.5
 
 Working without Windows PTY:
 ```
-D:\repro-nx-win [main ≡ +1 ~0 -0 !]> ${env:NX_WINDOWS_PTY_SUPPORT}='true'
+D:\repro-nx-win [main ≡ +1 ~0 -0 !]> ${env:NX_WINDOWS_PTY_SUPPORT}='false'
 D:\repro-nx-win [main ≡ +1 ~0 -0 !]> ${env:NX_NATIVE_LOGGING}='nx::native::pseudo_terminal'
 D:\repro-nx-win [main ≡ +1 ~0 -0 !]> npx nx run --skip-nx-cache app:serve
 
